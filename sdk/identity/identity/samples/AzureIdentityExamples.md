@@ -300,9 +300,9 @@ Apart from user name and password, this credential requires you to know the tena
 
 ```ts
 /**
- *  Authenticate with a client certificate.
+ *  Authenticate with a username and password.
  */
-function withClientCertificateCredential() {
+function withUsernamePasswordCredential() {
   let credential = new UsernamePasswordCredential(
     "<YOUR_TENANT_ID>",
     "<YOUR_CLIENT_ID>",
